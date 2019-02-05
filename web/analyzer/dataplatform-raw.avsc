@@ -1,0 +1,17 @@
+{"namespace": "pnda.entity",
+ "type": "record",
+ "name": "event",
+ "fields": [
+     {"name": "attack",       "type": "long"},
+     {"name": "ip",           "type": "string"},
+     {"name": "timestamp",    "type": "long"},
+     {"name": "method",       "type": "string"},
+     {"name": "url",          "type": "string"},
+     {"name": "status",       "type": "long"},
+     {"name": "length",       "type": "long"},
+     {"name": "httpversion",  "type": "string"},
+     {"name": "referrer",     "type": "string"},
+     {"name": "agent",        "type": "string"}
+
+ ]
+}
